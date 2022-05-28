@@ -1,0 +1,25 @@
+
+first_num = int(input("Enter the first number:"))
+print("+\n"
+      "-\n"
+      "*\n"
+      "/")
+operation_picker = input("pick a operator:")
+second_num = int(input("what is next number ?:"))
+def solution(num1=first_num,num2=second_num):
+    if operation_picker == "+":
+        arr1 = []
+        arr1.index(num1)
+        arr1.append(num2)
+        for i in arr1:
+            item  = arr1[i]
+            print(item)
+        print(num1+num2)
+    elif operation_picker == "-":
+        print(num1-num2)
+    elif operation_picker == "*":
+        print(num1*num2)
+    elif operation_picker =="/":
+        print(float(num1/num2))
+solution()
+
